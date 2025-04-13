@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/dist">
+    <BrowserRouter >
       <App />
     </BrowserRouter>
   </React.StrictMode>
