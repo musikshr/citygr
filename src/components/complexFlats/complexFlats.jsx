@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 import PropertyImageSlider from '../propertyCard/propertyCard'
 
@@ -244,9 +244,9 @@ const ComplexFlats = ({ data }) => {
                                     <p className="adress">{flat.adress}</p>
                                 </div>
                                 <div className='propertyButton'>
-                                    <a href={`/card/${flat.id}`} target="_blank" rel="noopener noreferrer">
+                                    <Link to={`/card/${flat.id}`} target="_blank" rel="noopener noreferrer">
                                         <button>Подробнее</button>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         );
