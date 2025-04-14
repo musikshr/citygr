@@ -15,11 +15,11 @@ const AboutUs = () => {
                         <p>Многолетний опыт</p>
                     </div>
                     <div className="statItem">
-                        <h3>500+</h3>
+                        <h3>2000+</h3>
                         <p>Счастливые клиенты</p>
                     </div>
                     <div className="statItem">
-                        <h3>300+</h3>
+                        <h3>2000+</h3>
                         <p>Проданная недвижимость</p>
                     </div>
                 </div>
